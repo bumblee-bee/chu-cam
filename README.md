@@ -1,6 +1,6 @@
 # CHU_CAM
 
-CHU_CAM is a web-based retro digital camera application inspired by early 2000s mobile phone cameras and compact digital cameras. The project recreates the nostalgic photography experience through a simplified camera interface, vintage visual effects, and lightweight performance.
+CHU_CAM is a  web-based retro digital camera application inspired by early 2000s mobile phone cameras and compact digital cameras. The project recreates the nostalgic photography experience through a simplified camera interface, vintage visual effects, and lightweight performance. its just fun ,i like the early 2000s camera view. will try to upgrade it more later . for now this much is done, i will try to add the diffrent different digicam filters in it.
 
 ## Features
 
