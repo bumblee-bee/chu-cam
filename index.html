@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>CHU_CAM</title>
+
+<meta
+name="description"
+content="CHU_CAM Retro Digital Camera">
+
+<meta
+name="theme-color"
+content="#0a0a0a">
+
+<link
+rel="manifest"
+href="manifest.json">
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="camera-body">
+
+<!-- TOP BAR -->
+
+<div class="top-bar">
+
+<div class="brand">
+CHU_CAM
+</div>
+
+<div class="top-right">
+
+<span id="memoryCounter">
+MEM 000
+</span>
+
+<span id="photoCounter">
+📷 0
+</span>
+
+<span>
+🔋 ████
+</span>
+
+</div>
+
+</div>
+
+<!-- CAMERA -->
+
+<div class="preview">
+
+<video
+id="camera"
+autoplay
+playsinline>
+</video>
+
+<canvas
+id="canvas">
+</canvas>
+
+<div
+class="timestamp"
+id="timestamp">
+LOADING...
+</div>
+
+<div
+class="camera-mode">
+VGA 0.3MP
+</div>
+
+<div
+class="recording"
+id="recording">
+🔴 REC
+</div>
+
+<div
+class="timer-display"
+id="timerDisplay">
+3
+</div>
+
+</div>
+
+<!-- CONTROLS -->
+
+<div class="controls">
+
+<button
+id="captureBtn">
+📸
+</button>
+
+<button
+id="recordBtn">
+🎥
+</button>
+
+<button
+id="switchBtn">
+🔄
+</button>
+
+<button
+id="timerBtn">
+⏱
+</button>
+
+</div>
+
+<!-- FILTERS -->
+
+<div class="filter-bar">
+
+<button
+class="filter-btn"
+data-filter="normal">
+NORMAL
+</button>
+
+<button
+class="filter-btn"
+data-filter="nokia">
+NOKIA
+</button>
+
+<button
+class="filter-btn"
+data-filter="digicam">
+DIGICAM
+</button>
+
+<button
+class="filter-btn"
+data-filter="bw">
+B&W
+</button>
+
+</div>
+
+<!-- INSTALL APP -->
+
+<button
+id="installBtn"
+style="display:none">
+📲 INSTALL APP
+</button>
+
+<!-- GALLERY -->
+
+<div class="gallery-top">
+
+<div>
+PHOTO MEMORY
+</div>
+
+<div>
+
+<button
+id="clearGalleryBtn">
+CLEAR
+</button>
+
+</div>
+
+</div>
+
+<div
+id="gallery">
+</div>
+
+</div>
+
+<!-- FULLSCREEN VIEWER -->
+
+<div
+id="viewer">
+
+<button
+id="closeViewer">
+✖
+</button>
+
+<img
+id="viewerImage">
+
+<div
+class="viewer-actions">
+
+<button
+id="deletePhotoBtn">
+DELETE
+</button>
+
+<button
+id="downloadPhotoBtn">
+DOWNLOAD
+</button>
+
+</div>
+
+</div>
+
+<!-- FLASH -->
+
+<div
+class="flash"
+id="flash">
+</div>
+
+<!-- AUDIO -->
+
+<audio
+id="shutterSound">
+
+<source
+src="shutter.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
